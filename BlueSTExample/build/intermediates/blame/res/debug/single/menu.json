@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\menu\\menu_scan.xml",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\src\\main\\res\\menu\\menu_scan.xml"
+    },
+    {
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\menu\\menu_demo.xml",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\src\\main\\res\\menu\\menu_demo.xml"
+    },
+    {
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\menu\\menu_log_feature.xml",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\build\\intermediates\\exploded-aar\\BlueSTSDK_Android-master\\BlueSTSDK\\unspecified\\res\\menu\\menu_log_feature.xml"
+    }
+]

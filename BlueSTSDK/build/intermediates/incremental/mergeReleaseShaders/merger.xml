@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTSDK\src\main\shaders"/></dataSet><dataSet config="release"><source path="D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTSDK\src\release\shaders"/></dataSet></merger>

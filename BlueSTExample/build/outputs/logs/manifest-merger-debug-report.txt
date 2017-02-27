@@ -1,0 +1,123 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:2:1-49:12
+	package
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:2:11-45
+		INJECTED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml
+		INJECTED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml
+		INJECTED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:3:11-69
+	android:versionCode
+		INJECTED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml
+		INJECTED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml
+application
+ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:5:5-47:19
+MERGED from [com.android.support:design:24.1.1] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\com.android.support\design\24.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.1.1] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:8:9-41
+	android:allowBackup
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:9:9-40
+activity#com.st.BlueSTSDK.Example.ScanActivity
+ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:10:9-18:20
+	android:label
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:12:13-56
+	android:name
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:11:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:14:17-68
+	android:name
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:16:17-76
+	android:name
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:16:27-74
+activity#com.st.BlueSTSDK.Example.FeatureListActivity
+ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:20:9-28:20
+	android:label
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:22:13-56
+	android:parentActivityName
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:24:13-55
+	android:launchMode
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:23:13-43
+	android:name
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:21:13-48
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:25:13-27:72
+	android:value
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:27:17-70
+	android:name
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:26:17-63
+activity#com.st.BlueSTSDK.Example.DebugConsoleActivity
+ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:29:9-37:20
+	android:screenOrientation
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:32:13-49
+	android:label
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:31:13-65
+	android:parentActivityName
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:33:13-62
+	android:name
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:30:13-49
+activity#com.st.BlueSTSDK.Example.SettingsActivity
+ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:38:9-45:20
+	android:label
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:40:13-60
+	android:parentActivityName
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:41:13-63
+	android:name
+		ADDED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml:39:13-45
+uses-sdk
+INJECTED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [BlueSTSDK_Android-master:BlueSTSDK:unspecified] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\BlueSTSDK_Android-master\BlueSTSDK\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:24.1.1] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\com.android.support\design\24.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.1.1] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.1.1] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.1.1] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.1.1] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml
+		INJECTED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml
+		INJECTED from D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\src\main\AndroidManifest.xml
+uses-feature#android.hardware.bluetooth_le
+ADDED from [BlueSTSDK_Android-master:BlueSTSDK:unspecified] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\BlueSTSDK_Android-master\BlueSTSDK\unspecified\AndroidManifest.xml:12:5-14:35
+	android:required
+		ADDED from [BlueSTSDK_Android-master:BlueSTSDK:unspecified] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\BlueSTSDK_Android-master\BlueSTSDK\unspecified\AndroidManifest.xml:14:9-32
+	android:name
+		ADDED from [BlueSTSDK_Android-master:BlueSTSDK:unspecified] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\BlueSTSDK_Android-master\BlueSTSDK\unspecified\AndroidManifest.xml:13:9-53
+uses-permission#android.permission.BLUETOOTH
+ADDED from [BlueSTSDK_Android-master:BlueSTSDK:unspecified] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\BlueSTSDK_Android-master\BlueSTSDK\unspecified\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from [BlueSTSDK_Android-master:BlueSTSDK:unspecified] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\BlueSTSDK_Android-master\BlueSTSDK\unspecified\AndroidManifest.xml:17:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [BlueSTSDK_Android-master:BlueSTSDK:unspecified] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\BlueSTSDK_Android-master\BlueSTSDK\unspecified\AndroidManifest.xml:19:5-74
+	android:name
+		ADDED from [BlueSTSDK_Android-master:BlueSTSDK:unspecified] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\BlueSTSDK_Android-master\BlueSTSDK\unspecified\AndroidManifest.xml:19:22-71
+uses-permission-sdk-23
+ADDED from [BlueSTSDK_Android-master:BlueSTSDK:unspecified] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\BlueSTSDK_Android-master\BlueSTSDK\unspecified\AndroidManifest.xml:21:5-88
+	android:name
+		ADDED from [BlueSTSDK_Android-master:BlueSTSDK:unspecified] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\BlueSTSDK_Android-master\BlueSTSDK\unspecified\AndroidManifest.xml:21:29-85
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [BlueSTSDK_Android-master:BlueSTSDK:unspecified] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\BlueSTSDK_Android-master\BlueSTSDK\unspecified\AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from [BlueSTSDK_Android-master:BlueSTSDK:unspecified] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\BlueSTSDK_Android-master\BlueSTSDK\unspecified\AndroidManifest.xml:24:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [BlueSTSDK_Android-master:BlueSTSDK:unspecified] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\BlueSTSDK_Android-master\BlueSTSDK\unspecified\AndroidManifest.xml:26:5-80
+	android:name
+		ADDED from [BlueSTSDK_Android-master:BlueSTSDK:unspecified] D:\ST AMG Sensortile project\BlueSTSDK_Android-master\BlueSTExample\build\intermediates\exploded-aar\BlueSTSDK_Android-master\BlueSTSDK\unspecified\AndroidManifest.xml:26:22-77
