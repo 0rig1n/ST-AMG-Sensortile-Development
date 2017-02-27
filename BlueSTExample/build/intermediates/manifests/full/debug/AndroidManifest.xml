@@ -42,6 +42,9 @@
                 android:value="com.st.BlueSTSDK.Example.ScanActivity" />
         </activity>
         <activity
+            android:name="com.st.BlueSTSDK.Example.DrawActivity"
+            android:label="Draw" />
+        <activity
             android:name="com.st.BlueSTSDK.Example.DebugConsoleActivity"
             android:label="@string/title_activity_debug_console"
             android:parentActivityName="com.st.BlueSTSDK.Example.FeatureListActivity"

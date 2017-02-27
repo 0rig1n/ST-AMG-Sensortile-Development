@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_67367ff24bc468c0ed2fb0a055830d7949e6ae00\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\pre-dexed\debug\internal_impl-24.1.1_0e7f3691b08bb658051a71e5d0e6034e982fd88e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\dhlzh\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\pre-dexed\debug\support-annotations-24.1.1_2e424c7bf883d1da99fb002edc1931f4b9f09436.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\dhlzh\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_2e424c7bf883d1da99fb002edc1931f4b9f09436\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_0e7f3691b08bb658051a71e5d0e6034e982fd88e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.1.1_67367ff24bc468c0ed2fb0a055830d7949e6ae00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\exploded-aar\com.android.support\design\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\pre-dexed\debug\com.android.support-design-24.1.1_ef1118850dc5bd00a5b0c6784f74f60bf0e97ac0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_b855a10d7561115ccf4212c1e63c07d56f373f88\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.1.1_ddd703655da4bf127bfca4b6eb49cb4e44c513b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\exploded-aar\BlueSTSDK_Android-master - backup1\BlueSTSDK\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="806110070e902d22bcbb6b719355f4fc81df38a2">
+        <dex dex="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\pre-dexed\debug\BlueSTSDK_Android-master - backup1-BlueSTSDK-unspecified_3fef6f2af54585aba9ba9edc419a9bf22524b1ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.1.1_26baa4dd0b3981629cdce27f9f156c186e1a597f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.1_26baa4dd0b3981629cdce27f9f156c186e1a597f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.1_ddd703655da4bf127bfca4b6eb49cb4e44c513b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.1.1_b855a10d7561115ccf4212c1e63c07d56f373f88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.1.1_812e7bbab3ddd74dfabb3465341e893b69f70704.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\exploded-aar\com.android.support\design\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.1.1_ef1118850dc5bd00a5b0c6784f74f60bf0e97ac0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e12e2e236383664bdbd081314c24fb90c3332010">
+        <dex dex="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e8863040ede1be19c912612392ce6262ec8bb653\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.1.1_812e7bbab3ddd74dfabb3465341e893b69f70704\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0b0366fefe3af632788020d5b13c0c3880628d0e">
+        <dex dex="D:\ST AMG Sensortile project\BlueSTSDK_Android-master - backup1\BlueSTExample\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_7bc120566c280b8977149f0e9e5a6b15f1571b07\classes.dex" />
+    </item>
+
+</items>

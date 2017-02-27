@@ -1,6 +1,10 @@
 [
     {
-        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
-        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1 -\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1 -\\BlueSTExample\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }
 ]

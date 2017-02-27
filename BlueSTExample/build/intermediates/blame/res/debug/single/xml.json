@@ -1,10 +1,18 @@
 [
     {
-        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers_configuration.xml",
-        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\src\\main\\res\\xml\\pref_headers_configuration.xml"
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers_configuration.xml",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\src\\main\\res\\xml\\pref_headers_configuration.xml"
     },
     {
-        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\xml\\pref_configuration.xml",
-        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\src\\main\\res\\xml\\pref_configuration.xml"
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1 -\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\xml\\pref_configuration.xml",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1 -\\BlueSTExample\\src\\main\\res\\xml\\pref_configuration.xml"
+    },
+    {
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\xml\\pref_configuration.xml",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\src\\main\\res\\xml\\pref_configuration.xml"
+    },
+    {
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1 -\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers_configuration.xml",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1 -\\BlueSTExample\\src\\main\\res\\xml\\pref_headers_configuration.xml"
     }
 ]

@@ -1,14 +1,26 @@
 [
     {
-        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
-        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1 -\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1 -\\BlueSTExample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1 -\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1 -\\BlueSTExample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1 -\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1 -\\BlueSTExample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
     }
 ]

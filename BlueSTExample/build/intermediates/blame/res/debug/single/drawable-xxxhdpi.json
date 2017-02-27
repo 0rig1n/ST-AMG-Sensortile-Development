@@ -1,14 +1,26 @@
 [
     {
-        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\board_generic.png",
-        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\src\\main\\res\\drawable-xxxhdpi\\board_generic.png"
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1 -\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\board_nucleo.png",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1 -\\BlueSTExample\\src\\main\\res\\drawable-xxxhdpi\\board_nucleo.png"
     },
     {
-        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\board_steval_wesu1.png",
-        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\src\\main\\res\\drawable-xxxhdpi\\board_steval_wesu1.png"
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\board_nucleo.png",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\src\\main\\res\\drawable-xxxhdpi\\board_nucleo.png"
     },
     {
-        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\board_nucleo.png",
-        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTExample\\src\\main\\res\\drawable-xxxhdpi\\board_nucleo.png"
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\board_steval_wesu1.png",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\src\\main\\res\\drawable-xxxhdpi\\board_steval_wesu1.png"
+    },
+    {
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\board_generic.png",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\src\\main\\res\\drawable-xxxhdpi\\board_generic.png"
+    },
+    {
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1 -\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\board_generic.png",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1 -\\BlueSTExample\\src\\main\\res\\drawable-xxxhdpi\\board_generic.png"
+    },
+    {
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1 -\\BlueSTExample\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\board_steval_wesu1.png",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1 -\\BlueSTExample\\src\\main\\res\\drawable-xxxhdpi\\board_steval_wesu1.png"
     }
 ]

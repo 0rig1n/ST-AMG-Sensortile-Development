@@ -1,6 +1,10 @@
 [
     {
-        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTSDK\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
-        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master\\BlueSTSDK\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.1.1\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTSDK\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTSDK\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.1.1\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1 -\\BlueSTSDK\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "D:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1 -\\BlueSTSDK\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.1.1\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     }
 ]

@@ -41,6 +41,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -58,7 +59,7 @@ import java.util.List;
  * When the user select one feature we request to receive the update notification and
  * we display it
  */
-public class FeatureListActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
+public class FeatureListActivity extends AppCompatActivity implements AdapterView.OnItemClickListener,View.OnClickListener {
 
     /**
      * tag used for retrieve the NodeContainerFragment
@@ -71,12 +72,13 @@ public class FeatureListActivity extends AppCompatActivity implements AdapterVie
      */
     private final static String NODE_TAG = FeatureListActivity.class.getCanonicalName() + "" +
             ".NODE_TAG";
-
+    private AudioTrack mAudioTrack;
     /**
      * node that will stream the data
      */
     private Node mNode;
-    private AudioTrack mAudioTrack;
+    private Button DRAW;
+    private boolean is_on=false;
     /**
      * fragment that manage the node connection and avoid a re connection each time the activity
      * is recreated
@@ -87,8 +89,7 @@ public class FeatureListActivity extends AppCompatActivity implements AdapterVie
      * list view where we display the available features exported by the node
      */
     private ListView mFeatureList;
-    private boolean is_open=false;
-    private boolean is_write=false;
+
     /**
      * adapter that will build the feature item
      */
@@ -128,7 +129,6 @@ public class FeatureListActivity extends AppCompatActivity implements AdapterVie
         Intent i = new Intent(c, FeatureListActivity.class);
         i.putExtra(NODE_TAG, node.getTag());
         i.putExtras(NodeContainerFragment.prepareArguments(node));
-        ScanActivity.startActivity(AudioActivity.getStartIntent(c, node))
         return i;
     }//getStartIntent
 
@@ -141,6 +141,8 @@ public class FeatureListActivity extends AppCompatActivity implements AdapterVie
         mFeatureList = (ListView) findViewById(R.id.featureList);
         mFeatureList.setOnItemClickListener(this);
 
+        DRAW = (Button) findViewById(R.id.Btn_DRAW);
+        DRAW.setOnClickListener(this);
         //find the node
         String nodeTag = getIntent().getStringExtra(NODE_TAG);
         mNode = Manager.getSharedInstance().getNodeWithTag(nodeTag);
@@ -159,7 +161,26 @@ public class FeatureListActivity extends AppCompatActivity implements AdapterVie
                     .findFragmentByTag(NODE_FRAGMENT);
 
         }//if-else
+        int playBufSize = AudioTrack.getMinBufferSize(8000, AudioFormat.CHANNEL_CONFIGURATION_MONO, AudioFormat.ENCODING_PCM_16BIT);
+        if(mAudioTrack==null)
+            mAudioTrack = new AudioTrack(AudioManager.STREAM_MUSIC, 8000,AudioFormat.CHANNEL_CONFIGURATION_MONO,  AudioFormat.ENCODING_PCM_16BIT, playBufSize, AudioTrack.MODE_STREAM);
+        /*if(mNode.isEnableNotification(mNode.getFeature(FeatureMemsGesture.class))) {//Ensure the ADPCM is disableNotification
+            mNode.getFeature(FeatureMemsGesture.class).removeFeatureListener(mGenericUpdate);
+            mNode.disableNotification(mNode.getFeature(FeatureMemsGesture.class));//disableNotification ADPCM
+        }
+        if(mNode.isEnableNotification(mNode.getFeature(FeatureAudioADPCM.class))) {//Ensure the ADPCM is disableNotification
+            mNode.getFeature(FeatureAudioADPCM.class).removeFeatureListener(mGenericUpdate);
+            mNode.disableNotification(mNode.getFeature(FeatureAudioADPCM.class));//disableNotification ADPCM
+        }
+        if(mNode.isEnableNotification(mNode.getFeature(FeatureAudioADPCMSync.class))) {//Ensure the ADPCM is disableNotification
+            mNode.getFeature(FeatureAudioADPCMSync.class).removeFeatureListener(mGenericUpdate);
+            mNode.disableNotification(mNode.getFeature(FeatureAudioADPCMSync.class));//disableNotification ADPCM
+        }*/
     }//onCreate
+
+    public   void onClick(View view){
+        switch (view.getId()){
+            case R.id.Btn_DRAW:startActivity(DrawActivity.getStartIntent(this, mNode));break;}}//start AudioActivity
 
     /**
      * build the menu and show the item only if the service is available in the node
@@ -354,44 +375,38 @@ public class FeatureListActivity extends AppCompatActivity implements AdapterVie
         @Override
         public void onUpdate(Feature f, Feature.Sample sample) {
             final String featureDump = f.toString();
-            if(is_open){
-
-                if(f.getName().equals("AudioFeature")){
-                    synchronized (this) {
-                        mAudioTrack.write(FeatureAudioADPCM.getAudio(sample), 0, sample.data.length);
-                    }
-                    is_write=true;
+            if(is_on){
+            if(!mNode.isEnableNotification(mNode.getFeature(FeatureAudioADPCM.class))) {//Ensure the ADPCM is EnableNotification
+                mNode.enableNotification(mNode.getFeature(FeatureAudioADPCM.class));//EnableNotification ADPCM
+            }
+            if(!mNode.isEnableNotification(mNode.getFeature(FeatureAudioADPCMSync.class))) {//Ensure the ADPCMSync is EnableNotification
+                mNode.enableNotification(mNode.getFeature(FeatureAudioADPCMSync.class));//EnableNotification ADPCMSync
+            }}
+            else{
+                if(mNode.isEnableNotification(mNode.getFeature(FeatureAudioADPCM.class))) {//Ensure the ADPCM is disableNotification
+                    mNode.disableNotification(mNode.getFeature(FeatureAudioADPCM.class));//disableNotification ADPCM
+                }
+                if(mNode.isEnableNotification(mNode.getFeature(FeatureAudioADPCMSync.class))) {//Ensure the ADPCMSync is EnableNotification
+                    mNode.disableNotification(mNode.getFeature(FeatureAudioADPCMSync.class));//EnableNotification ADPCMSync
                 }
             }
-            if(is_write){mAudioTrack.play();}
+            if(f.getName().equals("AudioFeature")){
+                synchronized (this) {
+                    mAudioTrack.write(FeatureAudioADPCM.getAudio(sample), 0, sample.data.length);
+                }
+            }
+
             if( f.getName().equals("Gesture")){
                 System.out.println("Debug:1");
                 FeatureMemsGesture Gesture = mNode.getFeature(FeatureMemsGesture.class);
-                if(Gesture.getGesture(sample)== FeatureMemsGesture.Gesture.PICK_UP || Gesture.getGesture(sample)== FeatureMemsGesture.Gesture.GLANCE){
-                    System.out.println("Debug:+2");
-                    if(!mNode.isEnableNotification(mNode.getFeature(FeatureAudioADPCM.class))) {//Ensure the ADPCM is EnableNotification
-                        mNode.enableNotification(mNode.getFeature(FeatureAudioADPCM.class));//EnableNotification ADPCM
-                    }
-                    if(!mNode.isEnableNotification(mNode.getFeature(FeatureAudioADPCMSync.class))) {//Ensure the ADPCMSync is EnableNotification
-                        mNode.enableNotification(mNode.getFeature(FeatureAudioADPCMSync.class));//EnableNotification ADPCMSync
-                    }
-                    is_open=true;
-                }
-                if(Gesture.getGesture(sample)== FeatureMemsGesture.Gesture.GLANCE){System.out.println("Debug:+3");}
+                if(Gesture.getGesture(sample)== FeatureMemsGesture.Gesture.PICK_UP){System.out.println("Debug:+2");mAudioTrack.play();is_on=true;}
+                if(Gesture.getGesture(sample)== FeatureMemsGesture.Gesture.GLANCE){System.out.println("Debug:+3");/*mAudioTrack.play();is_on=true;*/}
                 if(Gesture.getGesture(sample)== FeatureMemsGesture.Gesture.WAKE_UP){
                     System.out.println("Debug:+4");
-                   if (is_open){synchronized(this) {
-                        mAudioTrack.pause();
-                        mAudioTrack.flush();
-                    }}
-                    is_open=false;
-                    if(mNode.isEnableNotification(mNode.getFeature(FeatureAudioADPCM.class))) {//Ensure the ADPCM is disableNotification
-                        mNode.disableNotification(mNode.getFeature(FeatureAudioADPCM.class));//disableNotification ADPCM
-                    }
-                    if(mNode.isEnableNotification(mNode.getFeature(FeatureAudioADPCMSync.class))) {//Ensure the ADPCMSync is EnableNotification
-                        mNode.disableNotification(mNode.getFeature(FeatureAudioADPCMSync.class));//EnableNotification ADPCMSync
-                    }
-                }
+                    synchronized(this) {
+                    mAudioTrack.pause();
+                    mAudioTrack.flush();is_on=false;
+                }}
             }
             FeatureListActivity.this.runOnUiThread(new Runnable() {
                 @Override
@@ -401,8 +416,5 @@ public class FeatureListActivity extends AppCompatActivity implements AdapterVie
             });
         }//onUpdate
 
-
-
     }//GenericFragmentUpdate
 }
-

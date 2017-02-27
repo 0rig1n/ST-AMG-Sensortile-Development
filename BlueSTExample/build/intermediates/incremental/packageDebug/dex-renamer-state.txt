@@ -1,0 +1,7 @@
+#Tue Feb 21 13:18:15 CST 2017
+base.0=D\:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_7bc120566c280b8977149f0e9e5a6b15f1571b07
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_e8863040ede1be19c912612392ce6262ec8bb653\\classes.dex
+base.1=D\:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_e8863040ede1be19c912612392ce6262ec8bb653
+file.0=D\:\\ST AMG Sensortile project\\BlueSTSDK_Android-master - backup1\\BlueSTExample\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_7bc120566c280b8977149f0e9e5a6b15f1571b07\\classes.dex

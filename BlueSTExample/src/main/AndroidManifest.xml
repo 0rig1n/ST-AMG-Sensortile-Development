@@ -16,7 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-
         <activity
             android:name=".FeatureListActivity"
             android:label="@string/title_activity_demo"
@@ -26,6 +25,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.st.BlueSTSDK.Example.ScanActivity"/>
         </activity>
+        <activity
+            android:name=".DrawActivity"
+            android:label="Draw"/>
         <activity
             android:name=".DebugConsoleActivity"
             android:label="@string/title_activity_debug_console"
